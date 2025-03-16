@@ -25,8 +25,8 @@ cd ChatVault
 
 ## Step 2: Create a Virtual Environment
 ```bash
-conda create -p venv python=3.11.0 -y
-conda activate venv/
+conda create --name myvenv python=3.11.0 -y
+conda activate myvenv/
 ```
 
 ## Step 3: Install Dependencies
@@ -44,7 +44,7 @@ GEMINI_API_KEY=your_api_key_here
 
 ## Step 5: Run the Application
 ```bash
-streamlit run app.py
+streamlit run QAchat.py
 ```
 
 # Usage
